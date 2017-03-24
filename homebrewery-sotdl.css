@@ -16,7 +16,8 @@
     font-family: Athelas
   }
   .phb::after {
-  //ToDo !!!!
+    background-image: url(https://cdn.rawgit.com/Groumy/homebrewery-sotdl/images/page-number-pentagram.png);
+    background-size: cover;      
   }
 .phb h1, .phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
   font-family: "Portmanteau",'IM Fell English';
@@ -24,7 +25,8 @@
   font-weight: 500;
   line-height: 1.1;
 }
-.phb{background: #ffffff url(http://i.imgur.com/DaWNPZd.jpg) repeat-y right top;}
+.phb{background: #ffffff url(https://cdn.rawgit.com/Groumy/homebrewery-sotdl/images/sotdl-background.png) repeat-y right top;}
+
 .phb h3{
   border-bottom-style: none;
 }
