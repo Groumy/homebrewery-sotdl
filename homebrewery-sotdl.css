@@ -23,20 +23,24 @@
   src: url('https://rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/PoisonHope-Regular.otf?raw=true')
 }
 /**  **/
-  .phb {
-    font-family: Athelas
-  }
-  .phb::after {
-    background-image: url(https://rawgit.com/Groumy/homebrewery-sotdl/master/images/page-number-pentagram.png);
-    background-size: cover;      
-  }
+.phb {
+  font-family: Athelas;
+  background: url(https://rawgit.com/Groumy/homebrewery-sotdl/master/images/sotdl-background.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.phb::after {
+  background-image: url(https://rawgit.com/Groumy/homebrewery-sotdl/master/images/page-number-pentagram.png);
+  background-size: cover;      
+}
+
 .phb h1, .phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
   font-family: "Portmanteau",'IM Fell English';
   color: rgb(155,7,25);
   font-weight: 500;
   line-height: 1.1;
 }
-.phb{background: #ffffff url(https://rawgit.com/Groumy/homebrewery-sotdl/master/images/sotdl-background.png) repeat-y right top;}
+
 
 .phb h3{
   border-bottom-style: none;
