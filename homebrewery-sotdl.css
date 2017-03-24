@@ -1,0 +1,58 @@
+/** Import Fonts **/
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English');
+@import url('https://fonts.googleapis.com/css?family=Uncial+Antiqua');
+/** Defining fonts **/
+@font-face {
+  font-family: 'First Order';
+  src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/firstv2.ttf?raw=true')
+}
+@font-face {
+  font-family: 'GothamBold';
+  src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/GothamBold%20Regular.otf?raw=true')
+}
+
+/**  **/
+  .phb {
+    font-family: Athelas
+  }
+  .phb::after {
+  //ToDo !!!!
+  }
+.phb h1, .phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
+  font-family: "Portmanteau",'IM Fell English';
+  color: rgb(155,7,25);
+  font-weight: 500;
+  line-height: 1.1;
+}
+.phb{background: #ffffff url(http://i.imgur.com/DaWNPZd.jpg) repeat-y right top;}
+.phb h3{
+  border-bottom-style: none;
+}
+.phb h3::after{
+  content: "";
+  background-image: url(http://i.imgur.com/a95wcMv.png);
+  background-size: 100% 100%;
+  width: 500px;
+  height: 20px;
+  display: inline-block;
+  margin-left: -15px;
+}
+.phb table thead th {
+      width: 100px;
+  font-weight: bold;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 5px;
+  border-style: solid;
+  border-width: 0px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #ccc;
+}
+.phb table tbody tr:nth-child(odd){
+    background-color: initial;
+}
+.phb table tbody tr:nth-child(even) {
+  background-color: #fff;
+}
