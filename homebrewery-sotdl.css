@@ -54,18 +54,10 @@
   display: inline-block;
   margin-left: -15px;
 }
+
 .phb table thead th {
-      width: 100px;
-  font-weight: bold;
   background-color: #000000;
   color: #ffffff;
-  text-align: center;
-  padding: 5px 5px;
-  border-style: solid;
-  border-width: 0px;
-  overflow: hidden;
-  word-break: normal;
-  border-color: #ccc;
 }
 .phb table tbody tr:nth-child(odd){
     background-color: initial;

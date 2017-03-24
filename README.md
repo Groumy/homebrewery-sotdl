@@ -1,6 +1,10 @@
 # homebrewery-sotdl
 An alternate CSS to make brew on Homebrewery looks like the Shadow of the Demon Lord products.
 
+## Live example
+
+You can visiti [this brew](http://homebrewery.naturalcrit.com/share/B1VyWCzhg) that showcast every options of homebrewery and it's render
+
 
 ## How to use it
 * Go to [The Homebrewery](http://homebrewery.naturalcrit.com/)
