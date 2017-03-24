@@ -10,7 +10,18 @@
   font-family: 'GothamBold';
   src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/GothamBold%20Regular.otf?raw=true')
 }
-
+@font-face {
+  font-family: 'GothamBook';
+  src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/GothamBook%20Regular.otf?raw=true')
+}
+@font-face {
+  font-family: 'JSL Ancient';
+  src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/jancieni.ttf?raw=true')
+}
+@font-face {
+  font-family: 'Poison Hope';
+  src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/PoisonHope-Regular.otf?raw=true')
+}
 /**  **/
   .phb {
     font-family: Athelas
