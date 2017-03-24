@@ -7,7 +7,7 @@ An alternate CSS to make brew on Homebrewery looks like the Shadow of the Demon 
 * Create a new Brew
 * At the top of your brew simply paste the following line : 
 ``` html
-<link rel = "stylesheet" type = "text/css" href = "https://cdn.rawgit.com/Groumy/homebrewery-sotdl/master/homebrewery-sotdl.css" />
+<link rel = "stylesheet" type = "text/css" href = "https://raw.githubusercontent.com/Groumy/homebrewery-sotdl/master/homebrewery-sotdl.css" />
 ```
 
 ## Making it you own
@@ -19,13 +19,13 @@ I use [Rawgit](https://rawgit.com/) to help out with that, but you could also us
 ``` css
 @font-face {
   font-family: 'First Order';
-  src: url('https://cdn.rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/firstv2.ttf?raw=true')
+  src: url('https://raw.githubusercontent.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/firstv2.ttf?raw=true')
 }
 ```
 Change the `Groumy` part of the URL with your user name
 ``` css
 @font-face {
   font-family: 'First Order';
-  src: url('https://cdn.rawgit.com/**Your User Name**/homebrewery-sotdl/2bf4f06d/fonts/firstv2.ttf?raw=true')
+  src: url('https://raw.githubusercontent.com/**Your User Name**/homebrewery-sotdl/2bf4f06d/fonts/firstv2.ttf?raw=true')
 }
 ```
