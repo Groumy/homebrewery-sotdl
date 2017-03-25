@@ -34,7 +34,22 @@
   background-size: cover;      
 }
 
-.phb h1, .phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
+.phb h1{
+  font-family: "First Order";
+  text-align: center;
+  text-transform: uppercase;
+  background-image: url('https://rawgit.com/Groumy/homebrewery-sotdl/master/images/h1.banner.png');
+  background-repeat: repeat-x;
+ background-position: left-top;
+ border-color: silver;
+ border-style : none;
+ border-width : 5px 0px 5px 0px;
+ padding-top : 10px;
+ padding-bottom : 10px;
+ color : beige;
+}
+
+.phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
   font-family: "Portmanteau",'IM Fell English';
   color: rgb(155,7,25);
   font-weight: 500;
