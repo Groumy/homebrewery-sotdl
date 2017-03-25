@@ -36,38 +36,47 @@
 
 .phb h1{
   font-family: "First Order";
+  font-size: 700%;
   text-align: center;
+  text-shadow: 0px 0px 5px black;
+  color: rgb(195,193,171);
   text-transform: uppercase;
+  height: 141px;
   background-image: url('https://rawgit.com/Groumy/homebrewery-sotdl/master/images/h1.banner.png');
-  background-repeat: repeat-x;
- background-position: left-top;
- border-color: silver;
- border-style : none;
- border-width : 5px 0px 5px 0px;
- padding-top : 10px;
- padding-bottom : 10px;
- color : beige;
+  background-size: 100% 100%;
+  padding-top: 25px;
+  padding-bottom : 10px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.phb h1+p::first-letter {
+  float: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
 }
 
 .phb h2,.phb  h3,.phb  h4,.phb  h5,.phb  h6,.phb h7 { 
   font-family: "Portmanteau",'IM Fell English';
+  text-transform : uppercase;
+  text-align: left;
   color: rgb(155,7,25);
   font-weight: 500;
   line-height: 1.1;
 }
 
-
-.phb h3{
-  border-bottom-style: none;
+.phb h4{
+	font-size: .425cm;
 }
-.phb h3::after{
-  content: "";
-  background-image: url(http://i.imgur.com/a95wcMv.png);
-  background-size: 100% 100%;
-  width: 500px;
-  height: 20px;
-  display: inline-block;
-  margin-left: -15px;
+
+.phb h5{
+	font-size: .375cm;
+}
+
+.phb p{
+	font-family: 'GothamBook';
+    text-align: left;    
 }
 
 .phb table thead th {
