@@ -66,17 +66,32 @@
   line-height: 1.1;
 }
 
+.phb h3{
+  border-bottom-style: none;
+}
+
 .phb h4{
 	font-size: .425cm;
 }
 
 .phb h5{
 	font-size: .375cm;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
 }
 
-.phb p{
+.phb h6{
+	font-size: .33cm;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    color: black;
+}
+
+.phb p, .phb li, .phb ol{
 	font-family: 'GothamBook';
-    text-align: left;    
+  text-align: left;    
 }
 
 .phb table thead th {
@@ -88,4 +103,8 @@
 }
 .phb table tbody tr:nth-child(even) {
   background-color: #fff;
+}
+
+.phb strong{
+  color: rgb(155,7,25);
 }
