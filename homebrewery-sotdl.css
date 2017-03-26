@@ -4,48 +4,46 @@
 /** Defining fonts **/
 @font-face {
   font-family: 'First Order';
-  src: url('https://rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/firstv2.ttf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/firstv2.ttf?raw=true')
 }
 @font-face {
   font-family: 'GothamBold';
-  src: url('https://rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/GothamBold%20Regular.otf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBold%20Regular.otf?raw=true')
 }
 @font-face {
   font-family: 'GothamBook';
-  src: url('https://rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/GothamBook%20Regular.otf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf?raw=true')
 }
 @font-face {
   font-family: 'JSL Ancient';
-  src: url('https://rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/jancieni.ttf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/jancieni.ttf?raw=true')
 }
 @font-face {
   font-family: 'Poison Hope';
-  src: url('https://rawgit.com/Groumy/homebrewery-sotdl/2bf4f06d/fonts/PoisonHope-Regular.otf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf?raw=true')
 }
+
 /**  **/
+
 .phb {
   font-family: Athelas;
-  background: url(https://rawgit.com/Groumy/homebrewery-sotdl/master/images/sotdl-background.png);
+  
+  background: url('https://groumy.github.io/homebrewery-sotdl/images/sotdl-background.png');
   background-size: contain;
   background-repeat: no-repeat;
-}
-.phb::after {
-  background-image: url(https://rawgit.com/Groumy/homebrewery-sotdl/master/images/page-number-pentagram.png);
-  background-size: cover;      
 }
 
 .phb h1{
   font-family: "First Order";
-  font-size: 700%;
+  font-size: 400%;
   text-align: center;
   text-shadow: 0px 0px 5px black;
-  color: rgb(195,193,171);
+  color:white;
   text-transform: uppercase;
-  height: 141px;
-  background-image: url('https://rawgit.com/Groumy/homebrewery-sotdl/master/images/h1.banner.png');
+  background-image: url('https://groumy.github.io/homebrewery-sotdl/images/h1.banner.png');
   background-size: 100% 100%;
-  padding-top: 25px;
-  padding-bottom : 10px;
+  padding-top: 0.45em;
+  padding-bottom : 25px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -91,20 +89,141 @@
 
 .phb p, .phb li, .phb ol{
 	font-family: 'GothamBook';
+    font-size: 1em;
   text-align: left;    
 }
 
 .phb table thead th {
   background-color: #000000;
   color: #ffffff;
+  font-family: "GothamBook";
+  font-size:.85em;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .phb table tbody tr:nth-child(odd){
     background-color: initial;
+    font-family: "GothamBook";
+  font-size:.85em;
 }
 .phb table tbody tr:nth-child(even) {
   background-color: #fff;
+  font-family: "GothamBook";
+  font-size:.85em;
 }
 
-.phb strong{
+.phb strong em, .phb em strong{
   color: rgb(155,7,25);
+  font-style : normal;
+  font-weight: bold;
+}
+
+.phb blockquote{
+	border-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment.png') 50 round;
+    background-color: transparent;
+    background-image: url('https://groumy.github.io/homebrewery-sotdl/images/parchment-back.png');
+    box-shadow: none;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+.phb blockquote h5{
+	border: none;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.phb blockquote p{
+	font-size:0.83em;
+}
+
+.phb .descriptive{
+	border: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-style: italic;
+    padding-left:30px;
+}
+
+.phb .descriptive h5{
+	font-style:normal;
+    color:black;
+    text-align:center;
+}
+
+.phb .footnote{
+	color:#222;
+    font-family: "First Order";
+    font-size: 2.5em;
+    width:100%;
+    bottom:0px;
+}
+
+.phb .pageNumber {
+    bottom:0px;
+    vertical-align: middle;
+}
+
+.phb .pageNumber.auto{
+	bottom:22px;
+}
+
+.phb .pageNumber.auto::after{
+	height:22px;
+}
+
+.phb .pageNumber p{
+	font-family: "First Order";
+    font-size: 2.5em;
+    color: #222;
+    text-align: center;
+}
+
+.html-code code{
+	visibility: visible;
+    box-shadow: 1px 1px 1px black;
+    background-color: #aaa;
+    font-family: 'Lucida Console'
+}
+
+.phb hr{
+	visibility: visible;
+    border-style : solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px;
+    position: relative;
+}
+
+.phb p+hr{
+	top: -5px;
+}
+
+
+.phb .spell h4{
+	font-size: 0.5em;
+}
+
+.phb hr+blockquote{
+	border-style : none;
+    background-image: none;
+    background-color : transparent;
+}
+
+.phb::after {
+	background: none;
+    background-image: url(https://groumy.github.io/homebrewery-sotdl/images/page-number-pentagram.png);
+    background-size: 100px 100px; 
+    background-repeat: no-repeat;   
+    background-position: 0px calc(100% - 0px);
+    height: 100px
+}
+
+
+.phb:nth-child(odd):after {
+    transform: scaleX(-1);
+}
+
+.phb:nth-child(even):after {
+    transform: scaleX(1);
 }
