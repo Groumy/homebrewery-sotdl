@@ -4,23 +4,23 @@
 /** Defining fonts **/
 @font-face {
   font-family: 'First Order';
-  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/firstv2.ttf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/firstv2.ttf')
 }
 @font-face {
   font-family: 'GothamBold';
-  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBold%20Regular.otf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBold%20Regular.otf')
 }
 @font-face {
   font-family: 'GothamBook';
-  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/GothamBook%20Regular.otf')
 }
 @font-face {
   font-family: 'JSL Ancient';
-  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/jancieni.ttf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/jancieni.ttf')
 }
 @font-face {
   font-family: 'Poison Hope';
-  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf?raw=true')
+  src: url('https://groumy.github.io/homebrewery-sotdl/fonts/PoisonHope-Regular.otf')
 }
 
 /**  **/
