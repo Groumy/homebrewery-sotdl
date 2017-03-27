@@ -101,11 +101,17 @@
   padding-top: 3px;
   padding-bottom: 3px;
 }
+.phb table tbody tr{
+  font-family: "GothamBook";
+  font-size:.85em;
+}
+
 .phb table tbody tr:nth-child(odd){
     background-color: initial;
     font-family: "GothamBook";
   font-size:.85em;
 }
+
 .phb table tbody tr:nth-child(even) {
   background-color: #fff;
   font-family: "GothamBook";
