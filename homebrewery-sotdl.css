@@ -179,7 +179,7 @@
 	height:22px;
 }
 
-.phb .pageNumber p{
+.phb .pageNumber p, .phb .pageNumber .pageNumber.auto{
 	font-family: "First Order";
     font-size: 2.5em;
     color: #222;
