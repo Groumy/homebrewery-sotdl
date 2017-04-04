@@ -305,3 +305,7 @@
     border-width: 1px 0px 0px 0px;
     position: relative;
 }
+
+.phb hr+blockquote h2:before{
+	content: "Difficulty ";
+}
