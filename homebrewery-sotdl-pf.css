@@ -7,11 +7,9 @@
 
 .phb h1{
     background: none;
-    background-color: darkred;
-    border-top: 5px  solid silver;
-    border-bottom: 5px solid silver;
-    border-left: none;
-    border-right: none;
+    background-color:none;
+    border: none;
+    color: darkred;
 }
 
 .phb blockquote{
